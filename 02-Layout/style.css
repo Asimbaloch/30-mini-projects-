@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.left {
+    width: 40%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.right {
+    width: 60%;
+    height: 100%;
+    background-color: blue;
+}
+
+.rtop {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: black;
+}
+
+.rbottom {
+    width: 100%;
+    height: 50%;
+    background-color: brown;
+}
+
+.rtopleft {
+    width: 55%;
+    height: 100%;
+    background-color: darkorange;
+    
+}
+
+.rtopright {
+    width: 45%;
+   height:100% ;
+   background-color: yellow;
+}
