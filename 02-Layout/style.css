@@ -14,12 +14,15 @@ html,body {
     height: 100%;
     background-color: aqua;
     display: flex;
+    
 }
 
 .left {
     width: 40%;
     height: 100%;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    
 }
 
 .right {
@@ -38,18 +41,56 @@ html,body {
 .rbottom {
     width: 100%;
     height: 50%;
-    background-color: brown;
+    background-image: url(https://images.unsplash.com/photo-1708893634094-f6604d94e43f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-size: cover;
+   background-position: center;
 }
 
 .rtopleft {
     width: 55%;
     height: 100%;
-    background-color: darkorange;
+    background-image: url(https://images.unsplash.com/photo-1700752615604-fd54f9f28bc5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
     
 }
 
 .rtopright {
     width: 45%;
    height:100% ;
-   background-color: yellow;
+   background-image: url(https://images.unsplash.com/photo-1709048260183-44acb7826928?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-size: cover;
+   background-position: center;
+}
+
+.lnav{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0 12px;
+}
+
+.lcontent {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    text-align: center;
+    padding: 22;
+    
+}
+
+.lcontent h1 {
+    font-size: 100px;
+}
+
+.lcontent p{
+ margin-bottom: 22px;
+}
+
+.lcontent a {
+    border-bottom:1px solid black;
 }
